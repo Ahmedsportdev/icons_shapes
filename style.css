@@ -67,10 +67,3 @@ div{
       box-shadow: 10px, 4px, var(--fifth-div-color);
 
     }
-p{
-    color: #fff;
-    font-size: 17px;
-    position: relative;
-    top: 100%;
-}
-
