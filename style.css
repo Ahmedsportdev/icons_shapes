@@ -1,0 +1,68 @@
+:root{
+    --frist-div-color: #ff0000;
+    --second-div-color: #00ff;
+    --third-div-color: #dda4ae;
+    --fourth-div-color: #ffff00;
+    --fifth-div-color: #444444;
+    }
+body{
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+}
+div{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-inline: 20px;
+    font-size: 30px;
+    transition: .3s ease;
+    cursor: pointer;
+    position: relative;
+    top: 230px;
+    -webkit-box-reflect: below 5px linear-gradient
+    (to bottom, rgba(0.0, 0, 0, 0), rgba(0.0, 0, 0, 0.4));
+}
+.a{color: var(--frist-div-color);-webkit-box-reflect: below 5px linear-gradient
+    (to bottom, rgba(0.0, 0, 0, 0), rgba(0.0, 0, 0, 0.4));} .b{color: var(--second-div-color);-webkit-box-reflect: below 5px linear-gradient
+    (to bottom, rgba(0.0, 0, 0, 0), rgba(0.0, 0, 0, 0.4));} .c{color: var(--third-div-color);-webkit-box-reflect: below 5px linear-gradient
+    (to bottom, rgba(0.0, 0, 0, 0), rgba(0.0, 0, 0, 0.4));} .d{color: var(--fourth-div-color);-webkit-box-reflect: below 5px linear-gradient
+    (to bottom, rgba(0.0, 0, 0, 0), rgba(0.0, 0, 0, 0.4));} .e{color: var(--fifth-div-color);-webkit-box-reflect: below 5px linear-gradient
+    (to bottom, rgba(0.0, 0, 0, 0), rgba(0.0, 0, 0, 0.4));}
+.a:hover{
+    background-color: var(--frist-div-color);
+    color: #fff;
+    box-shadow: 10px, 4px, var(--frist-div-color);
+}
+.a:hover::after{
+    color: inherit;
+    box-shadow: inherit;
+    background-color: inherit;
+}
+    .b:hover{
+      background-color: var(--second-div-color);
+      color: #fff;
+      box-shadow: 10px, 4px, var(--second-div-color);
+    }
+    .c:hover{
+      background-color: var(--third-div-color);
+      color: #fff;
+      box-shadow: 10px, 4px, var(--third-div-color);
+    }
+    .d:hover{
+      background-color: var(--fourth-div-color);
+      color: #fff;
+      box-shadow: 10px, 4px, var(--four-div-color);
+    }
+    .e:hover{
+      background-color: var(--fifth-div-color);
+      color: #fff;
+      box-shadow: 10px, 4px, var(--fifth-div-color);
+    }
