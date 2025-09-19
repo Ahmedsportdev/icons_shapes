@@ -65,4 +65,9 @@ div{
       background-color: var(--fifth-div-color);
       color: #fff;
       box-shadow: 10px, 4px, var(--fifth-div-color);
+
     }
+p{
+    color: #fff;
+    font-size: 17px;
+}
